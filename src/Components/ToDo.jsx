@@ -11,6 +11,7 @@ const ToDo = () => {
   } catch (e) {
     console.error("You Good Bro?, Check your Input", e);
   }
+
   const [tasks, setTasks] = useState(taskZero);
   const [task, setTask] = useState("");
 
