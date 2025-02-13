@@ -74,6 +74,7 @@ const ToDo = () => {
               }`}
             >
               {task.text}
+
               <div>
                 <button
                   className="btn btn-success btn-sm me-2"
@@ -81,6 +82,7 @@ const ToDo = () => {
                 >
                   Finished
                 </button>
+
                 <button
                   className="btn btn-danger btn-sm"
                   onClick={() => purgeTask(ind)}
